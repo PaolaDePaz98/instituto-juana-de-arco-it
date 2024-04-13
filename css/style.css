@@ -1,0 +1,186 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  background: #3f3f3f;
+}
+
+#topnav {
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: Black;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.nav-link {
+  display: inline-block;
+  width: 100px;
+  height: 55px;
+  color: White;
+  text-align: center;
+  line-height: 55px;
+  text-decoration: none;
+}
+
+#logo {
+  width: 120px;
+  background-color: #bf9061;
+  font-weight: bold;
+}
+
+.home-header {
+  width: 100%;
+}
+
+.home-header-banner {
+  position: relative;
+}
+
+.home-header-image {
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+}
+
+.home-header-title {
+  float: right;
+  position: absolute;
+  top: 30%;
+  right: 0;
+  transform: translate(-25%, -40%);
+  color: white;
+  font-size: 80px;
+  font-family: "Aclonica";
+}
+
+.title-image {
+  float: left;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  width: 10%;
+  border-radius: 50%;  
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+  width: 100%;
+}
+
+.clock {
+  background: rgba(0,0,0,0.5);
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+  color: white;
+  font-size: 30px;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.main-container {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #b6b6b6;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.main-content {
+  width: 95%;
+  padding: 10px;
+}
+
+.main-content > h1 {
+  font-size: 40px;
+  font-family: "Aclonica";
+}
+
+.main-content > h2 {
+  font-size: 30px;
+  font-family: "Aclonica";
+}
+
+.main-content > p {
+  font-size: 20px;
+  font-family: "Aclonica";
+}
+
+.carrousel-example {
+    width: 100%;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.carrousel-example > img {
+    width: 400px;
+    height: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+}
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Aclonica;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: rgba(0,0,0,0.1);
+  border:2px solid #bf9061;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#bf9061;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+.contact-link {
+  font-size: 30px;
+  font-family: "Lucida Handwriting";
+}
